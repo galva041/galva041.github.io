@@ -1,14 +1,40 @@
 /* the nav bar */
 .nav-bar {
     height: 60px;
-
-    position: -webkit-sticky;
+    
+    position: -webkit-sticky; 
     position: sticky;
 
     top:0;
-    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
+nav ul {
+    list-style-type: none;
+    margin: 2px white;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B15E6C;
+    border: 5px white;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #F7EBEC;
+    color: #B15E6C;
+}
+  
 /* everything except the navbar */
 .page-stuff {
     font-family: 'Courier New', Courier, monospace;
@@ -79,17 +105,16 @@
     height: 100vh;
 
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 
     justify-content: center;
-    align-content: center;
 }
 
 .expirience {
     height: 100vh;
 
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 
     justify-content: center;
     align-content: center;
@@ -99,8 +124,12 @@
     height: 100vh;
 
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 
     justify-content: center;
     align-content: center;
+}
+
+.table {
+
 }
