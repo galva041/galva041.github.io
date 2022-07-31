@@ -1,0 +1,295 @@
+/* the nav bar */
+.nav-bar {
+    height: 60px;
+    
+    position: -webkit-sticky; 
+    position: sticky;
+
+    top:0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 2px white;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B15E6C;
+    border: 5px white;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #F7EBEC;
+    color: #B15E6C;
+}
+
+a:link {
+    color: #B15E6C;
+}
+
+a:hover {
+    color: #361F27;
+}
+
+
+/* everything except the navbar */
+.page-stuff {
+    font-family: 'Courier New', Courier, monospace;
+    color: #B15E6C;
+    background-color: #F7EBEC;
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
+/* landing page: picture, name, subheading, about me */
+.landing {
+    height: 100vh;
+
+    background-image: url(flowers2-2.png);
+    background-size:110%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; space around even*/
+    justify-content: center;
+    
+    align-items: center;
+    align-content: center; 
+
+    /* border: 2px solid black; */
+}
+
+.name {
+    /* flex-grow: 1; */
+    
+    padding-left: 30px;
+
+    /* border: 2px solid white; */
+}
+
+.image-me {
+    width:250px; 
+    height:336.81px;
+
+    background-image: url(me.png);
+    background-size: contain;
+
+    border-radius: 25px;
+    /* border: 2px solid red; */
+}
+
+#title {
+    font-size: 250%;
+}
+
+
+/* starting information page styling */
+/* about me!! */
+#bodyheadings {
+    font-size: 180%;
+}
+
+h3 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.about-me {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.about-img {
+    width:300px; 
+    height:300px;
+
+    padding-bottom: 0%;
+
+    background-image: url(aboutme.png);
+    background-size: 100%;
+
+    border-radius: 25px;
+    /* border: 2px solid red; */
+}
+
+.about-txt {
+    padding-top: 0%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.education {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+
+    /* border: 2px solid black; */
+}
+
+.edu-row1 {
+    padding-left: 20px;
+    padding-bottom: 35px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.school {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.degree {
+    text-align: center;
+}
+
+.date {
+    text-align: right;
+}
+
+.edu-row2 {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 60px;
+    padding-right: 180px;
+}
+
+.row2-content1 {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+    border-radius: 25px;
+    background-color: whitesmoke;
+}
+
+.row2-content2 {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+    border-radius: 25px;
+    background-color: whitesmoke;
+}
+
+.expirience {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.exp-title {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.exp-tbl1 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.exp-tbl2 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.projects {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    /* align-content: center; */
+}
+
+.proj-title {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.proj-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.proj1 {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.proj2{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.proj3 {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+p.proj-desc {
+    text-align: center;
+}
