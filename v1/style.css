@@ -26,7 +26,7 @@ nav ul li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px ;
     text-decoration: none;
 }
 
@@ -87,7 +87,7 @@ nav ul li a:hover {
     width:250px; 
     height:336.81px;
 
-    background-image: url(me.png);
+    background-image: url(./pics/me.png);
     background-size: contain;
 
     border-radius: 25px;
@@ -111,7 +111,8 @@ h3 {
 }
 
 .about-me {
-    height: 100vh;
+    height:fit-content;
+    padding: 5%;
 
     display: flex;
     flex-direction: column;
@@ -123,14 +124,12 @@ h3 {
 }
 
 .about-img {
-    margin-top: 130px;
-
     width:300px; 
     height:300px;
 
     padding-bottom: 0%;
 
-    background-image: url(aboutme.png);
+    background-image: url(./pics/aboutme.png);
     background-size: 100%;
 
     border-radius: 25px;
@@ -146,7 +145,7 @@ h3 {
 }
 
 .education {
-    height: 100vh;
+    height: max-content;
 
     display: flex;
     flex-direction: column;
@@ -214,7 +213,7 @@ h3 {
 }
 
 .expirience {
-    height: 100vh;
+    height: auto;
 
     padding-top: 30px;
 
@@ -268,7 +267,7 @@ h3 {
 }
 
 .projects {
-    height: 100vh;
+    height:auto;
 
     display: flex;
     flex-direction: column;
@@ -290,9 +289,11 @@ h3 {
 
 .proj-container {
     margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .proj1 {
